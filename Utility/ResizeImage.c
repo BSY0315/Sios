@@ -18,7 +18,7 @@ int main(int argc,char *argv[])
 	FILE* ReszFp,*ImgFp,*BootFp;
 	char Boot_File[512];
 	
-	ReszFp=fopen(argv[1],"rb"); ImgFp=fopen("Temp/ReSizeImage.img","wb"); BootFp=fopen("../Bootstrap/Boot.img","rb");
+	ReszFp=fopen(argv[1],"rb"); ImgFp=fopen("Temp/ResizeImage.img","wb"); BootFp=fopen("../Bootstrap/Boot.img","rb");
 	if(ReszFp==NULL)
 	{
 		printf("error:Couldn't find file:%s\n",argv[1]);

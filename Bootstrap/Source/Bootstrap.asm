@@ -129,8 +129,8 @@ BIOSserviceMessage db 'Executing BIOS service...',0
 SuccessMessage db 'Load Os image Successfully!',0
 ErrorMessage db 'Error is occured while load Os image!',0
 
-OsImageSize dw 5
-OsImageSize_64 dw 93
+OsImageSize dw 9
+OsImageSize_64 dw 99
 
 IsFormated db 0
 
