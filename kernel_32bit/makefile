@@ -7,7 +7,7 @@ RESIZEIMAGE=../Utility/ResizeImage.out
 TEMPDIR=Temp
 SOURCEDIR=Source
 
-all:$(TEMPDIR)/GDT.img kernel_32.img 
+all:$(TEMPDIR)/GDT.img kernel_32.img
 
 kernel_32.img:$(TEMPDIR)/kernel_32.bin
 	$(OBJCOPY) $^ $(TEMPDIR)/Tempimg.img
